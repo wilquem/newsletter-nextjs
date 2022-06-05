@@ -1,0 +1,169 @@
+/*Inicio de persoanlizacao de formulario de login e cadastro*/
+
+.bootstrap-wrapper .box-footer {
+
+    border-top: 1px solid #f4f4f4;
+    
+    padding: 10px;
+    
+    background-color: #fff;
+    
+    display: none;
+    
+    border-radius: 0 0 3px 3px;
+    
+    }/*Ocultar botão de login e de cadastro do footer*/
+    
+    .bootstrap-wrapper .box-header {
+    
+    color: #000000;
+    
+    display: none !important;
+    
+    padding: 10px;
+    
+    position: relative;
+    
+    } /* ocultar títulos superiores */
+    
+    .bootstrap-wrapper .box {
+    
+    position: relative;
+    
+    border-radius: 3px;
+    
+    background: #fff;
+    
+    /* border-top: 3px solid #d2d6de; */
+    
+    margin-bottom: 20px;
+    
+    width: 100%;
+    
+    padding: 0px !important;
+    
+    box-shadow: none !important;
+    
+    border-top: none !important;
+    
+    } /*Remover borda superior*/
+    
+    .bootstrap-wrapper .form-control {
+    
+    display: block;
+    
+    width: 100%;
+    
+    height: 44px !important; /*Antes era 34 engrossar os cmapos*/
+    
+    padding: 6px 12px;
+    
+    font-size: 14px;
+    
+    line-height: 1.42857143;
+    
+    color: #555;
+    
+    background-color: #fff;
+    
+    background-image: none;
+    
+    border: 1px solid #ccc;
+    
+    border-radius: 5px !important; /*adicionei*/
+    
+    border-radius: 4px;
+    
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, .bootstrap-wrapper 0, .bootstrap-wrapper 0, .bootstrap-wrapper 0.075);
+    
+    box-shadow: inset 0 1px 1px rgba(0, .bootstrap-wrapper 0, .bootstrap-wrapper 0, .bootstrap-wrapper 0.075);
+    
+    -webkit-transition: border-color ease-in-out .15s, .bootstrap-wrapper -webkit-box-shadow ease-in-out .15s;
+    
+    -o-transition: border-color ease-in-out .15s, .bootstrap-wrapper box-shadow ease-in-out .15s;
+    
+    transition: border-color ease-in-out .15s, .bootstrap-wrapper box-shadow ease-in-out .15s;
+    
+    } /*personaliza os campos*/
+    
+    .bootstrap-wrapper .form-control-feedback {
+    
+    position: absolute;
+    
+    top: 0;
+    
+    right: 0;
+    
+    z-index: 2;
+    
+    display: block;
+    
+    width: 34px;
+    
+    height: 34px;
+    
+    line-height: 44px !important; /*aumentei para 44px pra ficar igual a largura do campo e assim alinhar*/
+    
+    text-align: center;
+    
+    pointer-events: none;
+    
+    }/*mexe nos icones do form*/
+    
+    .bootstrap-wrapper .wpuser_button {
+    
+    border-radius: 8px !important;
+    
+    background-color: #000000 !important;
+    
+    }
+    
+    .bootstrap-wrapper .btn-primary {
+    
+    border: none !important;
+    
+    padding: 10px !important;
+    
+    width: 50% !important;
+    
+    }
+    
+    input#wpuser_login1617978076851 {
+    
+    padding: 15px !important;
+    
+    }
+    
+    bootstrap-wrapper .has-feedback .form-control {
+    
+    padding: 20px !important;}
+    
+    input#wpuser_register1617978076584 {
+    
+    width: 300px !important;
+    
+    }
+    
+    .bootstrap-wrapper .wpuser_button {
+        border-radius: 2px !important;
+        background-color: #000000 !important;
+        display: flex !important;
+        margin: 0 auto !important;
+        justify-content: center !important;
+        align-items: center !important;
+        font-family: "Montserrat",Helvetica,Arial,sans-serif !important;
+        font-weight: 500;
+    }
+       
+
+    .htmega-tab-nav a.htb-active {
+        background: #000 !important;
+        color: #fff !important;
+        border-radius: 2px;
+    }
+
+    .htb-nav{
+        font-family: "Montserrat",Helvetica,Arial,sans-serif !important;
+    }
+
+    /*Fim de persoanlizacao de formulario de login e cadastro*/
